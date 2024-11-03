@@ -1,0 +1,17 @@
+FLASK_APP=main.py
+
+DB_USER=postgres
+DB_PWD=secret123
+DB_HOST=localhost
+DB_PORT=5416
+DB_NAME=dk_tkpm
+DB_URL=postgresql://postgres:secret123@localhost:5416/da_tkpm
+
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=secret
+REDIS_DB=0
+
+JWT_SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
+JWT_ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
